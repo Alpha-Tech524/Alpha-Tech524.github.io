@@ -95,7 +95,7 @@ async function init() {
         img.src = badBatter
       } else if(classLabels[maxIndex] === 'Brake pad') {
         img.src = brakePad
-      } else if(classLabels[maxIndex] === 'Engine without Oil') {
+      } else if(classLabels[maxIndex] === 'Engine without oil') {
         img.src = oil
       } else if(classLabels[maxIndex] === 'Water pump'){
         img.src = waterPump
