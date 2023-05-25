@@ -52,7 +52,7 @@ async function init() {
   const recognizer = await createModel();
   const classLabels = recognizer.wordLabels(); // get class labels
   const labelContainer = document.getElementById("label-container");
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < classLabels.length; i++) {
     labelContainer.appendChild(document.createElement("div"))
   }
 
