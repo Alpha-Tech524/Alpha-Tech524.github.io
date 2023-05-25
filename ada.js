@@ -52,7 +52,7 @@ async function init() {
   const recognizer = await createModel();
   const classLabels = recognizer.wordLabels(); // get class labels
   const labelContainer = document.getElementById("label-container");
-  for (let i = 0; i < classLabels.length; i++) {
+  for (let i = 0; i < 6; i++) {
     labelContainer.appendChild(document.createElement("div"))
   }
 
@@ -74,7 +74,7 @@ async function init() {
 
     resultContainer.classList.add(classes[classLabels[maxIndex]]);
 
-    for (let i = 0; i < classLabels.length; i++) {
+    for (let i = 0; i < 6; i++) {
       const classPrediction = classLabels[i] + ": " + result.scores[i].toFixed(2);
 
       let currentNode = labelContainer.childNodes[i]
