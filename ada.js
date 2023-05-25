@@ -80,7 +80,7 @@ async function init() {
       let currentNode = labelContainer.childNodes[i]
       currentNode.innerHTML = classPrediction;
       currentNode.style.background = "transparent"
-      console.log(classLabels[maxIndex])
+//       console.log(classLabels[maxIndex])
 
       if (scores[i] === maxScore) {
         currentNode.style.background = "maroon"
