@@ -1,4 +1,4 @@
-const URL = "https://teachablemachine.withgoogle.com/models/RsTNo8Rqa/";
+const URL = "https://teachablemachine.withgoogle.com/models/H2oD61ZYa/";
 // cont URL = "https://teachablemachine.withgoogle.com/models/RsTNo8Rqa/";
 
 const resultContainer = document.getElementById("result");
